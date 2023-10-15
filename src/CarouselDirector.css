@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "--Raleway-Regular"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Regular.ttf") format("truetype");
+}
+
+.container {
+  padding: 50px;
+}
+
+.container .carousel {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+}
+.container .carousel .item {
+  background-color: #ffffff;
+  margin: 10px;
+  pad: 10px;
+  width: 334px;
+}
+
+.imagem-estudantes {
+  width: 250px; /* Largura em pixels */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Isso centralizará a imagem */
+  padding-left: 70px;
+  margin-top: -15px; /* Margem negativa para posicionar acima da imagem do carrossel */
+  text-align: center; /* Centralize horizontalmente */
+}
+
+.container .carousel .item image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Isso centralizará a imagem */
+  padding: 10px;
+  flex: none;
+}
+
+.container .carousel .item .image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: #ffffff;
+}
+
+.container .carousel .item .info-titulo {
+  display: block;
+  text-align: center;
+  color: #a9e6df;
+  padding: 5px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 150%;
+  font-family: "--Raleway-Regular", sans-serif;
+}
+
+.container .carousel .item .info-descricao {
+  font-family: "--Raleway-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+
+  color: #4d4d4d;
+}
+
+.container .data {
+  font-family: "--Raleway-Regular", sans-serif;
+  color: 777795;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.span-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button-matricule-se {
+  font-family: "--Raleway-Regular", sans-serif;
+  padding: 10px 30px;
+  gap: 40px;
+  background: #a9e6df;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: box-shadow 0.3s;
+  white-space: nowrap;
+}
+
+.button-matricule-se:hover {
+  box-shadow: 0 0 10px rgba(11, 112, 119, 0.7);
+}
+
+.container .buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.container .buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container .buttons button:first-child img {
+  transform: rotate(180deg);
+}

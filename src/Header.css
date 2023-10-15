@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "--Raleway-Medium"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--Raleway-Regular"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Regular.ttf") format("truetype");
+}
+
+.containerHeader {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-color: #d2e6e4;
+  width: 100%;
+  padding: 40px 4%;
+}
+
+.header-i {
+  background-color: #ffffff;
+}
+
+.header-i:hover {
+  box-shadow: 0 0 10px #0b7077;
+}
+
+.header ul {
+  display: flex;
+  color: #d2e6e4;
+}
+
+.header ul li {
+  margin: 0 10px;
+}
+
+.header-logo {
+  margin-right: 20px; /* Espaço à direita do logo */
+  margin-left: -10px;
+}
+
+.button-home {
+  font-family: var(--Raleway-Regular), sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 20px; /* Ajuste o preenchimento conforme necessário */
+  gap: 10px;
+  margin-right: 12px;
+  color: #fd661f;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: box-shadow 0.3s;
+  background-color: #d2e6e4;
+}
+
+.button-home:hover {
+  box-shadow: 0 0 10px #d2e6e4;
+}
+
+.button-blog {
+  font-family: var(--Raleway-Regular), sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+  gap: 10px;
+  margin-right: 12px;
+  color: #252641;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: box-shadow 0.3s;
+  background-color: #d2e6e4;
+}
+
+.button-blog:hover {
+  box-shadow: 0 0 10px #d2e6e4;
+}
+
+.button-style-1 {
+  /* Estilos dos botões */
+  display: flex;
+  align-items: center;
+  padding: 20px 40px; /* Ajuste o preenchimento conforme necessário */
+  gap: 10px;
+  margin-right: 12px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-family: var(--Raleway-Regular), sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0b7077;
+  transition: box-shadow 0.3s;
+  white-space: nowrap;
+}
+
+.button-style-1:hover {
+  box-shadow: 0 0 10px rgba(11, 112, 119, 0.7);
+}
+
+.button-style-2 {
+  /* Estilos dos botões */
+  font-family: var(--Raleway-Regular), sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px; /* Ajuste o preenchimento conforme necessário */
+  gap: 10px;
+  margin-right: 12px;
+  background: #0b7077;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: box-shadow 0.3s;
+  white-space: nowrap;
+}
+
+.button-style-2:hover {
+  box-shadow: 0 0 10px rgba(11, 112, 119, 0.7);
+}
+
+.button-style-3 {
+  /* Estilos dos botões */
+  font-family: var(--Raleway-Regular), sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px; /* Ajuste o preenchimento conforme necessário */
+  gap: 10px;
+  margin-right: 12px;
+  background: #fd661f;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 2px solid transparent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: box-shadow 0.3s;
+  white-space: nowrap;
+}
+
+.button-style-3:hover {
+  box-shadow: 0 0 10px #fd661f;
+}
+
+.header ul li a {
+  color: #252641;
+  text-decoration: none;
+}
+
+.banner {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center; /* Centralizar horizontalmente */
+  margin-top: auto; /* Move o conteúdo para a parte inferior do banner */
+  text-align: center;
+}

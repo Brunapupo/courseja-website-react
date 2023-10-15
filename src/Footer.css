@@ -1,0 +1,341 @@
+@font-face {
+  font-family: "--Raleway-Bold"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--Raleway-Medium"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--IRAN"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/IRANYekan.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--IRANYekanBold"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/IRANYekanBold.ttf") format("truetype");
+}
+
+.rodape {
+  background-color: #d2e6e4;
+  font-size: 1.5rem;
+  font-weight: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row; /* Por padrão, flexbox organiza elementos em linha (horizontalmente) */
+  align-items: center;
+}
+
+.wave-1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 60px; /* Ajuste a altura da ondulação conforme desejado */
+  background-image: url("./assets/ondas.png");
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  animation: waves 4s linear infinite;
+  background-size: 50% 75px;
+  opacity: 1;
+  z-index: 10;
+}
+
+.wave-2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 60px; /* Ajuste a altura da ondulação conforme desejado */
+  background-image: url("./assets/ondas.png");
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  animation: waves 7s linear infinite;
+  background-size: 50% 75px;
+  opacity: 0.75;
+  z-index: 11;
+}
+
+.wave-3 {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 60px; /* Ajuste a altura da ondulação conforme desejado */
+  background-image: url("./assets/ondas.png");
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  animation: waves 10s linear infinite;
+  background-size: 50% 75px;
+  opacity: 0.5;
+  z-index: 12;
+}
+
+@keyframes waves {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  0% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.5);
+  }
+  0% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+.container-info {
+  padding: 100px;
+}
+.logo {
+  width: 10px; /* Largura desejada em pixels */
+  height: 10px;
+}
+
+.xy {
+  padding-left: 100px;
+  gap: 8px;
+}
+
+.bb {
+  padding: 18px;
+  padding-left: 100px;
+}
+
+.cc {
+  padding-left: 100px;
+}
+
+.dd {
+  padding-left: 100px;
+}
+
+.local-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.local {
+  gap: 8px;
+  color: #0b7077;
+  font-family: "--IRANYekanBold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #0b7077;
+}
+
+.info-lorem {
+  gap: 8px;
+  color: #0b7077;
+  font-family: "--Raleway-Medium", sans-serif;
+  font-size: 16px;
+  padding: 100px;
+}
+
+.time-icon {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+}
+
+.time {
+  color: #0b7077;
+  font-family: "--IRANYekanBold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #0b7077;
+  padding-left: 100px;
+}
+
+.email-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+}
+
+.email {
+  color: #0b7077;
+  font-family: "--IRANYekanBold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #0b7077;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 100px;
+}
+
+.sobre {
+  font-family: "--IRANYekanBold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0a033c;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+.ajuda {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0b7077;
+  padding-left: 100px;
+  gap: 8px;
+  padding-top: 16px;
+}
+
+.apoio {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0b7077;
+  padding-left: 100px;
+  padding-top: 16px;
+}
+
+.historia {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  color: #0b7077;
+  padding-left: 100px;
+  padding-top: 16px;
+}
+
+.impacto {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  padding: 16px;
+  color: #0b7077;
+  padding-left: 100px;
+}
+
+.equipe {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+
+  color: #0b7077;
+  padding-left: 100px;
+}
+
+.carreiras {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  padding: 16px;
+  color: #0b7077;
+  padding-left: 100px;
+}
+
+.links {
+  font-family: "--IRANYekanBold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0a033c;
+  padding-left: 150px;
+}
+
+.email-notif {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  color: #0b7077;
+  padding-left: 100px;
+  padding-top: 16px;
+}
+
+.email-input {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  color: #0b7077;
+  padding-left: 100px;
+  padding-top: 16px;
+}
+
+.transparent-label {
+  font-family: "--Raleway-Medium", sans-serif;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  color: #000; /* Cor do texto do input */
+  font-size: 16px;
+  width: 200px; /* Ajuste a largura conforme necessário */
+  transition: width 0.4s ease-in-out;
+  border-radius: 10px;
+  width: 400px;
+  height: 60px;
+  padding: 12px;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.transparent-label::placeholder {
+  color: #999; /* Cor do texto de placeholder do input */
+}
+
+.button-email {
+  background-color: rgba(11, 112, 119, 0.7); /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 180px;
+  height: 60px;
+  padding: 12px;
+  align-items: center;
+  font-family: "--Raleway-Regular", sans-serif;
+  font-size: 16px;
+}
+
+.button-email:hover {
+  background-color: #0b7077; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.desenvolvedora {
+  background-color: #0b7077;
+  height: auto;
+  color: #d2e6e4;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px;
+  font-family: "--IRANYekanBold", sans-serif;
+}

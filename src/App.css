@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "--Raleway-Medium"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--Raleway-Regular"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("./font/Raleway-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  background-color: #ffffff;
+}
