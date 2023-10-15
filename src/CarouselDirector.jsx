@@ -3,9 +3,8 @@ import { useRef } from "react";
 import "./CarouselDirector.css";
 import chevron_icon from "./assets/chevron_icon.png";
 
-import carrosel_1 from "./assets/carrosel_1.svg";
 import carousel_2 from "./assets/carousel_2.jpg";
-import carousel_3 from "./assets/carousel_3.svg";
+
 import carousel_4 from "./assets/carousel_4.svg";
 import carousel_5 from "./assets/carousel_5.svg";
 
@@ -20,7 +19,6 @@ import history from "./assets/history.png";
 import literatura from "./assets/literatura.png";
 
 import desenho from "./assets/desenho.jpg";
-import sociologia from "./assets/sociologia.png";
 import fisica from "./assets/fisica.jpg";
 
 function CarouselDirector() {
