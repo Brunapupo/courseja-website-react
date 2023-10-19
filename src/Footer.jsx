@@ -134,7 +134,7 @@ function Footer() {
             </li>
           </ul>
           <p className="copy_right">
-            <span>Costs</span> &copy; 2023
+            <span>Costs</span> &copy; 2023 | Desenvolvido por Bruna Pupo
           </p>
         </footer>
       </div>

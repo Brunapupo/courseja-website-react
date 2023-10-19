@@ -360,7 +360,7 @@
   color: #d2e6e4;
   font-size: 14px;
   text-align: center;
-  padding: 3em;
+  padding: 1em;
   font-family: "--IRANYekanBold", sans-serif;
 }
 
@@ -387,10 +387,14 @@
 }
 
 .copy_right {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .copy_right_span {
   font-weight: bold;
   color: #fd661f;
+}
+
+.bruna {
+  font-weight: bold;
 }
