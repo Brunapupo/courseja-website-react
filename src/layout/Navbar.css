@@ -29,10 +29,24 @@
 }
 
 .item a {
-  color: #f1550cd3;
+  color: rgba(11, 112, 119, 0.7);
   text-decoration: none;
 }
 
 .item a:hover {
-  color: #f55b14;
+  color: #0b7077;
+}
+
+.item2 {
+  margin-right: 1em;
+}
+
+.item2 a {
+  color: #eb7138d3;
+  text-decoration: none;
+}
+
+.item2 a:hover {
+  color: #e7510cd3;
+  text-decoration: none;
 }

@@ -18,6 +18,9 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className="item">
+            <Link to="/">Cursos</Link>
+          </li>
+          <li className="item2">
             <Link to="/">Faça uma doação</Link>
           </li>
         </ul>
