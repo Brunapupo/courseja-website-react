@@ -1,6 +1,7 @@
 import React from "react";
 import "./CarouselCourses.css";
 import Vector_titulo from "./assets/Vector_titulo.svg";
+import Container from "./layout/Container";
 
 function CarouselCourses() {
   return (

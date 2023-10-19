@@ -9,29 +9,21 @@
 }
 
 .titulo_cursos {
-  position: absolute;
-  width: 850.19px;
-  height: 10.06px;
-  left: 454.5px;
-  top: 950px;
   align-items: center;
   font-family: "--Raleway-Bold", sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 48px;
   color: #fd661f;
-  list-style: none;
-  transform: rotate(-0.17deg);
-  white-space: nowrap;
+  padding: 30px;
 }
 
 .vector {
   /* Brand color */
-  position: absolute;
-  width: 1040.19px;
-  height: 10.06px;
-  left: 454.5px;
-  top: 1010px;
+
+  justify-content: center;
+  display: block; /* Certifique-se de que a imagem é exibida como um bloco */
+  margin: 0 auto;
 }
 
 .botao-cont {

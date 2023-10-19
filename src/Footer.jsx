@@ -7,6 +7,8 @@ import cel from "./assets/cel.svg";
 import time from "./assets/time.svg";
 import email from "./assets/email.svg";
 
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+
 function Footer() {
   return (
     <div>
@@ -109,10 +111,32 @@ function Footer() {
             />
             <button className="button-email">Inscrever-se</button>
           </div>
+
+          <div className="titulo-redes-socais">
+            <span class="apresentacao__links__subtitulo">
+              Acesse nossas redes sociais:
+            </span>
+          </div>
         </div>
       </div>
+
       <div>
-        <footer className="desenvolvedora">Desenvolvido por Bruna Pupo</footer>
+        <footer className="copy">
+          <ul className="social_list">
+            <li>
+              <FaFacebook />
+            </li>
+            <li>
+              <FaInstagram />
+            </li>
+            <li>
+              <FaGithub />
+            </li>
+          </ul>
+          <p className="copy_right">
+            <span>Costs</span> &copy; 2023
+          </p>
+        </footer>
       </div>
     </div>
   );

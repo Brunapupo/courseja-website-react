@@ -27,6 +27,8 @@
   position: relative;
   flex-direction: row; /* Por padrão, flexbox organiza elementos em linha (horizontalmente) */
   align-items: center;
+  padding: 24px;
+  flex-wrap: wrap;
 }
 
 .wave-1 {
@@ -330,12 +332,62 @@
   background-color: #0b7077; /* Cor de fundo do botão ao passar o mouse */
 }
 
-.desenvolvedora {
+.space {
+  background-color: #d2e6e4;
+  color: #d2e6e4;
+}
+
+.titulo-redes-socais {
+  font-family: "--Raleway-Medium", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 8px;
+  color: #0b7077;
+  padding-left: 100px;
+  padding-top: 26px;
+}
+
+.button-insta {
+  width: 2px; /* Defina a largura desejada para o logo do Instagram */
+  height: 2px; /* Mantém a proporção original da imagem */
+  vertical-align: middle;
+}
+
+.copy {
   background-color: #0b7077;
   height: auto;
   color: #d2e6e4;
   font-size: 14px;
   text-align: center;
-  padding: 8px;
+  padding: 3em;
   font-family: "--IRANYekanBold", sans-serif;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social_list li {
+  margin: 0 1em;
+}
+
+.social_list li:hover {
+  color: #fd661f;
+}
+
+.social_list svg {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.copy_right {
+  margin-top: 2em;
+}
+
+.copy_right_span {
+  font-weight: bold;
+  color: #fd661f;
 }
