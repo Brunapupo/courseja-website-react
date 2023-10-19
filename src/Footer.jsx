@@ -111,12 +111,6 @@ function Footer() {
             />
             <button className="button-email">Inscrever-se</button>
           </div>
-
-          <div className="titulo-redes-socais">
-            <span class="apresentacao__links__subtitulo">
-              Acesse nossas redes sociais:
-            </span>
-          </div>
         </div>
       </div>
 
@@ -124,13 +118,19 @@ function Footer() {
         <footer className="copy">
           <ul className="social_list">
             <li>
-              <FaFacebook />
+              <a href="https://www.facebook.com/courseja">
+                <FaFacebook className="social_list li social_list li:hover" />
+              </a>
             </li>
             <li>
-              <FaInstagram />
+              <a href="https://www.instagram.com/courseja.2024/">
+                <FaInstagram className="social_list li social_list li:hover" />
+              </a>
             </li>
             <li>
-              <FaGithub />
+              <a href="https://github.com/Brunapupo/courseja-website-react">
+                <FaGithub className="social_list li social_list li:hover" />
+              </a>
             </li>
           </ul>
           <p className="copy_right">

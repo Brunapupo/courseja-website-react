@@ -368,13 +368,16 @@
   display: flex;
   justify-content: center;
   list-style-type: none;
+  list-style: none;
+  color: #d2e6e4;
 }
 
 .social_list li {
+  color: #d2e6e4;
   margin: 0 1em;
 }
 
-.social_list li:hover {
+.social_list:hover {
   color: #fd661f;
 }
 

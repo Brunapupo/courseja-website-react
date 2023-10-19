@@ -18,7 +18,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className="item">
-            <Link to="/">Doação</Link>
+            <Link to="/">Faça uma doação</Link>
           </li>
         </ul>
       </Container>

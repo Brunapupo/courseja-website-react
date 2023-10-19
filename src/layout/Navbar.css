@@ -1,8 +1,21 @@
+@font-face {
+  font-family: "--Raleway-Bold"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("../font/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "--Raleway-Medium"; /* Nome da fonte, pode ser qualquer nome */
+  src: url("../font/Raleway-Medium.ttf") format("truetype");
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #d2e6e4;
-  padding: 1em;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 18px;
+  font-family: "--Raleway-Regular", sans-serif;
 }
 
 .list {
@@ -16,10 +29,10 @@
 }
 
 .item a {
-  color: #0b7077;
+  color: #f1550cd3;
   text-decoration: none;
 }
 
 .item a:hover {
-  color: #085055;
+  color: #f55b14;
 }
