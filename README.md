@@ -41,10 +41,8 @@ npm install
 # Execute o servidor de desenvolvimento
 npm start
 ```
-# O site estará disponível em localhost:3000
 
-## Feito por:
-### Bruna Pupo
+## Feito por: ### Bruna Pupo
 ### Site COURSEJA: https://courseja.vercel.app/
 ### Linkedin: https://www.linkedin.com/in/bruna-dias-pupo-0ab221199/
 
