@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-## Feito por: ### Bruna Pupo
+## Feito por: Bruna Pupo
 ### Site COURSEJA: https://courseja.vercel.app/
 ### Linkedin: https://www.linkedin.com/in/bruna-dias-pupo-0ab221199/
 
